@@ -42,4 +42,4 @@ result = prune(messages)  # contradictions resolved
 
 ---
 
-Software engineer, Japan · ORCID: [0009-0008-1306-0316](https://orcid.org/0009-0008-1306-0316)
+Software engineer, Japan
