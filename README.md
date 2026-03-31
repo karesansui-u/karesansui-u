@@ -26,7 +26,7 @@ result = prune(messages)  # contradictions resolved
 
 ---
 
-### 📄 Papers
+### 📄 Papers & Raw Data
 
 > **"Context rot is not a length problem. It's a contradiction problem."**
 
@@ -35,6 +35,8 @@ result = prune(messages)  # contradictions resolved
 | 1 | **Structural Collapse as Information Loss** | S = μ × e^{-δ}: contradiction → exponential decay. Multi-attractor prediction confirmed (K=19.5±3.4, MAE 2%, 5 context lengths). Lean 4 verified (sorry=0). | [Zenodo](https://zenodo.org/records/19254667) |
 | 2 | **Predicting Computational Cost from δ** | Same δ governs both solution existence and computational cost. Sensitivity exponent is solver-dependent. | [Zenodo](https://zenodo.org/records/18943573) |
 | 3 | **Contradiction Metabolism for LLMs** | External metabolism prevents context rot. +52.2pp (n=3, p=0.027; 8-model sign test p=0.0107). Metabolized system exceeds contradiction-free baseline. | [Zenodo](https://zenodo.org/records/19322371) |
+
+📊 **[delta-survival-papers](https://github.com/karesansui-u/delta-survival-papers)** — All papers (TeX + PDF), raw experiment data (1,000+ trials across 11 models), reproduction scripts, and Lean 4 proofs. See [DATA.md](https://github.com/karesansui-u/delta-survival-papers/blob/main/DATA.md) for direct download links.
 
 🔬 [Lean 4 formal proofs](https://github.com/karesansui-u/delta-survival-papers/tree/main/lean) — 160 propositions, `sorry = 0`, `axiom = 0`
 
