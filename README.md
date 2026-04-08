@@ -6,8 +6,6 @@ GPT-4o-mini: 100% → 10%. Gemini: 100% → 0%. Google's 1M-token window? Still 
 
 The framework generates testable predictions. The multi-attractor extension predicts Gemini's accuracy follows **P = 1/(1+K/L)** — derived from 3 data points, confirmed at 5 context lengths (32K–512K) with **MAE 2%**, two out-of-sample predictions within 1%. Full chain: axioms → Lean 4 proof → prediction → experiment.
 
-I built an **external metabolism layer** that resolves contradictions during idle time, analogous to memory consolidation during sleep. Result: **+52.2pp accuracy** (n=3, Kruskal-Wallis p=0.027; 8-model sign test p=0.0107). Unexpected: the metabolized system *exceeds* the contradiction-free baseline.
-
 ---
 
 ### 🧬 Projects
@@ -19,8 +17,6 @@ from delta_prune import DeltaPrune
 prune = DeltaPrune(llm=OpenAILLM())
 result = prune(messages)  # contradictions resolved
 ```
-
-**[DeltaZero](https://github.com/karesansui-u/delta-zero)** — Full metabolic architecture. 4-layer memory, temporal integration, survival equation monitoring. The research system behind the papers.
 
 **[DeltaLint](https://github.com/karesansui-u/delta-lint)** — Structural contradiction scanner for codebases. Finds where one module's assumptions contradict another's behavior.
 
