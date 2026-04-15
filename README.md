@@ -22,21 +22,30 @@ result = prune(messages)  # contradictions resolved
 
 ---
 
+### 特許関連
+
+本研究に関連する構造維持機構については、日本で既に特許出願済みです。  
+概要は [Patent Notice](https://github.com/karesansui-u/delta-survival-papers/blob/main/PATENTS.md) を参照してください。
+
+---
+
 ### 📄 Papers & Raw Data
 
 > **"Context rot is not a length problem. It's a contradiction problem."**
 
-| # | Title | Key Result | DOI |
-|---|-------|-----------|-----|
-| 1 | **Structural Collapse as Information Loss** | S = μ × e^{-δ}: contradiction → exponential decay. Multi-attractor prediction confirmed (K=19.5±3.4, MAE 2%, 5 context lengths). Lean 4 verified (sorry=0). | [Zenodo](https://zenodo.org/records/19254667) |
-| 2 | **Predicting Computational Cost from δ** | Same δ governs both solution existence and computational cost. Sensitivity exponent is solver-dependent. | [Zenodo](https://zenodo.org/records/18943573) |
-| 3 | **Contradiction Metabolism for LLMs** | External metabolism prevents context rot. +52.2pp (n=3, p=0.027; 8-model sign test p=0.0107). Metabolized system exceeds contradiction-free baseline. | [Zenodo](https://zenodo.org/records/19322371) |
+| # | Title | Key Result |
+|---|-------|-----------|
+| 1 | **Structural Collapse as Information Loss** | S = μ × e^{-δ}: contradiction → exponential decay. Multi-attractor prediction confirmed (K=19.5±3.4, MAE 2%, 5 context lengths). Lean 4 verified (sorry=0). |
+| 2 | **Predicting Computational Cost from δ** | Same δ governs both solution existence and computational cost. Sensitivity exponent is solver-dependent. |
+| 3 | **Contradiction Metabolism for LLMs** | External metabolism prevents context rot. +52.2pp (n=3, p=0.027; 8-model sign test p=0.0107). Metabolized system exceeds contradiction-free baseline. |
 
 📊 **[delta-survival-papers](https://github.com/karesansui-u/delta-survival-papers)** — All papers (TeX + PDF), raw experiment data (1,000+ trials across 11 models), reproduction scripts, and Lean 4 proofs. See [DATA.md](https://github.com/karesansui-u/delta-survival-papers/blob/main/DATA.md) for direct download links.
 
-🔬 [Lean 4 formal proofs](https://github.com/karesansui-u/delta-survival-papers/tree/main/lean) — 160 propositions, `sorry = 0`, `axiom = 0`
+🗂️ [Zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Sunagawa%2C%20Akihito%22&l=list&p=1&s=10&sort=bestmatch) — All records
 
 📦 [OSF Project](https://osf.io/mdh7b/) — All papers, data, and code in one place
+
+🔬 [Lean 4 formal proofs](https://github.com/karesansui-u/delta-survival-papers/tree/main/lean) — 160 propositions, `sorry = 0`, `axiom = 0`
 
 ---
 
