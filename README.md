@@ -29,6 +29,7 @@ result = prune(messages)  # contradictions resolved
 ### 特許関連
 
 本研究に関連する構造維持機構については、日本で既に特許出願済みです。  
+長期タスクを支える永続状態を土台としつつ、その上に構造持続方程式と矛盾解消原理に基づく整合性維持機構を重ねています。  
 概要は [Patent Notice](https://github.com/karesansui-u/delta-survival-papers/blob/main/PATENTS.md) を参照してください。
 
 ---
@@ -39,7 +40,7 @@ result = prune(messages)  # contradictions resolved
 
 | # | Paper | 要点 |
 |---|-------|------|
-| 1 | **Structural Collapse as Information Loss** | `S = μ × e^{-δ}`。矛盾は指数的な崩壊として現れる。Multi-attractor prediction を確認。Lean 4 検証済み。 |
+| 1 | **Structural Collapse as Information Loss** | 構造持続方程式 `S = μ × e^{-δ}`。矛盾は指数的な崩壊として現れる。Multi-attractor prediction を確認。Lean 4 検証済み。 |
 | 2 | **Predicting Computational Cost from δ** | 同じ `δ` が、解の存在だけでなく計算コストにも効く。感度指数はソルバー依存。 |
 | 3 | **Contradiction Metabolism for LLMs** | 外部代謝により context rot を抑制。`+52.2pp`（n=3, p=0.027; 8-model sign test p=0.0107）。 |
 
